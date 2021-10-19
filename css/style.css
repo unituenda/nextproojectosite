@@ -119,30 +119,6 @@ color: rgba(252, 22, 22, 0.85);
     font-size: 1rem;
   }
 
-
-/* NAV END */
-/* 
-header {
-  background-color: hsla(237, 37%, 10%, 1);
-  position: relative;
-  z-index: 100;
-  width: 100vw;
-  height: 100vh;
-
-}
-
-header {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  
-  background-color: rgba(88, 90, 223, 0.5);
-  z-index: 10;
-  width: 100vw;
-  height: 100vh;
-} */
-
 header {
   background-color: hsla(237, 37%, 10%, 1);
   height: 100vh;
