@@ -289,7 +289,7 @@ section.witness .witness-info .info {
   border: 1px solid rgba(25, 25, 25, 0.15);
   box-sizing: border-box;
   border-radius: 18px;
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   position: relative;
