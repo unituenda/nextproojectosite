@@ -336,3 +336,31 @@ section.witness .witness-info .person-info span {
   font-size: 0.75rem;
   line-height: 2.5rem;
 }
+
+
+section.witness .controllersSlider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+section.witness .controllersSlider .Position {
+  display: flex;
+
+}
+
+section.witness .controllersSlider .Position .setPosition{
+  width: 0.875rem;
+  height: 0.875rem;
+  background-color: var(--second-color);
+  margin-right: 0.575rem;
+  border-radius: 50%;
+}
+
+section.witness .controllersSlider .Position div.active {
+  width: 2rem;
+  border-radius: 0.875rem;
+  background-color: var(--first-color);
+}
+
