@@ -396,3 +396,78 @@ section.witness .predict .next {
 section.witness .predict .turn {
   background-color: var(--first-color);
 }
+
+section.services {
+  margin-top: 9.313rem;
+}
+section.services div {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+section.services div h1 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+section.services .cards {
+  display: flex;
+  
+}
+section.services .cards .card {
+  width: 22.375rem;
+  height: 32.875rem;
+  border: 1px solid;
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+section.services .cards .card.ative  {
+  border-color: var(--first-color) ;
+}
+section.services .cards .card.ative button {
+  background-color: var(--first-color);
+}
+
+
+section.services .cards .card button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  height: 3.44rem;
+  color: #fff;
+  background-color: var(--first-color-text);
+  border: none;
+}
+
+section.services .cards .card h1 {
+  text-align: start;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 63px;
+}
+
+section.services .cards .card strong {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 1.7rem;
+}
+
+
+section.services .cards .card ul li {
+  margin-bottom: 0.8rem;
+}
