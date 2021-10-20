@@ -364,3 +364,35 @@ section.witness .controllersSlider .Position div.active {
   background-color: var(--first-color);
 }
 
+section.witness .predict {
+  display: flex;
+ 
+  width: 10rem;
+  align-items: center;
+  justify-content: center;
+}
+
+section.witness .predict div {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  
+}
+
+section.witness .predict div:first-child {
+  margin-right: 1rem;
+}
+
+section.witness .predict div img {
+  width: 100%;
+  height: 100%;
+}
+
+section.witness .predict .next {
+  background-color: #E5E5E5;
+}
+
+
+section.witness .predict .turn {
+  background-color: var(--first-color);
+}
