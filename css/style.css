@@ -447,6 +447,8 @@ section.services .cards .card button {
   color: #fff;
   background-color: var(--first-color-text);
   border: none;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
 section.services .cards .card h1 {
@@ -470,4 +472,19 @@ section.services .cards .card strong {
 
 section.services .cards .card ul li {
   margin-bottom: 0.8rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+}
+section.services .cards .card ul li i {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+section.services .cards .card.ative ul li i {
+  color: var(--first-color);
 }
