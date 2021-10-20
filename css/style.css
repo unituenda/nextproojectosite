@@ -278,6 +278,9 @@ section.witness h2 {
   margin: 3.5rem;
 }
 
+section.witness .witness-info {
+  display: flex;
+}
 section.witness .witness-info .info {
   width: 26rem;
   height: 28.5rem;
@@ -289,9 +292,18 @@ section.witness .witness-info .info {
   flex-direction: column;
   justify-content: space-around;
   position: relative;
+  margin-left: 1.5rem;
 }
 
 section.witness .witness-info .info .text img {
   width: 29px;
   height: 33px;
+}
+section.witness .witness-info .info .text p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 26px;
+  margin-bottom: 2.5rem;
 }
