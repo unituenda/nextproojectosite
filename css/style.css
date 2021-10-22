@@ -65,7 +65,7 @@ a {
 .margin {
   max-width: 1140px;
   width: calc(100% - 2rem);
-  margin-left: var(--mb-2);
+  margin-left: 99px;
   margin-right: var(--mb-2);
 }
 
@@ -141,7 +141,7 @@ header {
 }
 
 header .header {
-  width: 60% !important;
+  width: 60%;
   z-index: 100;
 }
 
