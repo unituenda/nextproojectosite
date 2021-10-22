@@ -70,11 +70,12 @@ a {
 }
 
 .marg {
-  max-width: 1140px;
-  width: calc(100% - 2rem);
-  margin-left: 99px;
-  margin-right: var(--mb-2);
+ 
+  width: 100vw;
+  padding-left: 99px;
+  padding-right: 99px;
   background-color: hsla(237, 37%, 10%, 1);
+ 
 }
 button {
   border-radius: 9px;
