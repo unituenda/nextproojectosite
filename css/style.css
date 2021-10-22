@@ -71,6 +71,7 @@ a {
 
 button {
   border-radius: 9px;
+  cursor: pointer;
 }
 
 .button-red {
@@ -124,7 +125,7 @@ nav.nav ul li a {
 
 nav.nav button {
   width: 145px;
-  height: 51;
+  height: 51px;
   padding: 16px 32px;
   font-size: 1rem;
 }
