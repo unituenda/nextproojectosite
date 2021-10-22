@@ -131,7 +131,7 @@ nav.nav ul li a {
 }
 
 nav.nav button {
-  width: 145px;
+  width: auto;
   height: 51px;
   padding: 16px 32px;
   font-size: 1rem;
@@ -193,7 +193,6 @@ header::after {
   background-position: bottom 1px right 0;
   background-size: 40.7rem 37.7rem;
   background-repeat: no-repeat;
-
   z-index: 10;
   width: 100%;
   height: 100vh;
