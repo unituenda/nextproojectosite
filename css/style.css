@@ -70,7 +70,10 @@ a {
 }
 
 .marg {
-  width: 100%;
+  max-width: 1140px;
+  width: calc(100% - 2rem);
+  margin-left: 99px;
+  margin-right: var(--mb-2);
   background-color: hsla(237, 37%, 10%, 1);
 }
 button {
