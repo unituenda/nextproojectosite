@@ -135,7 +135,7 @@ nav.nav button {
 
 header {
   background-color: hsla(237, 37%, 10%, 1);
-  height: 80vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   position: relative;
