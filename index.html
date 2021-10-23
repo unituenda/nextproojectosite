@@ -53,14 +53,21 @@
       bottom: 200px;
       top: 514px;
       left: 977px;
-      background-color: hsla(0, 94%, 52%, 1);
+      background-color: var(--first-color);
     }
-
+    .slick-prev:hover,  .slick-next:hover  {
+      color: #fff;
+      background: var(--second-color);
+    }
+    .slick-prev:focus, .slick-next:focus {
+      color: #fff;
+      background-color: var(--first-color);
+    }
     button.slick-next {
       bottom: 218px;
       top: 515px;
       left: 1035px;
-      background-color: hsla(0, 94%, 52%, 1);
+      background-color: var(--first-color);
     }
   </style>
 </head>
@@ -80,8 +87,7 @@
           Saber Mais
         </button>
 
-        <div class="toggle icon-menu"></div>
-        <div class="toggle icon-close"></div>
+        
     </nav>
   </header>
   

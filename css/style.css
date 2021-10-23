@@ -326,6 +326,7 @@ section.witness h2 {
 
 section.witness .witness-info {
   display: flex;
+ 
 }
 section.witness .witness-info .info {
   width: 26rem;
@@ -339,6 +340,7 @@ section.witness .witness-info .info {
   justify-content: space-around;
   position: relative;
   margin-left: 1.5rem;
+  
 }
 
 section.witness .witness-info .info .text img {
