@@ -1,11 +1,14 @@
-const nav = document.querySelector('nav');
+const header = document.querySelector('#header');
+const navHeight = header.offsetHeight;
+
+function changeHeaderWhenScroll() {
+  if (window.scrollY >= navHeight) {
+    header.classList.add('scroll');
+  } else {
+    header.classList.remove('scroll');
+  }
+}
 
 window.addEventListener('scroll', () => {
-  if(window.scrollY != 0 ) {
-    nav.classList.remove('margin');
-    nav.classList.add('marg');
-  } else {
-    nav.classList.remove('marg');
-    nav.classList.add('margin');
-  }
+  changeHeaderWhenScroll();
 });
