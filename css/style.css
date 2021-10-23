@@ -185,7 +185,29 @@ button {
   position: absolute;
   border: 1px solid #FFFFFF;
   border-radius: 12px;
+  color: #E5E5E5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
+
+#home .down span {
+  animation: move 1.2s linear infinite;
+}
+
+@keyframes move{
+  0%{
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(1rem);
+  }
+}
+
+
 #home h1 span {
   color: var(--first-color);
 }
@@ -513,3 +535,4 @@ section.services .cards .card ul li i {
 section.services .cards .card.ative ul li i {
   color: var(--first-color);
 }
+
