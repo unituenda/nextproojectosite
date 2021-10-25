@@ -601,3 +601,32 @@ footer .copy-right {
 footer .copy-right span {
   color: var(--first-color);
 }
+
+footer .info .single-footer img{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+footer .info .single-footer .info-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+footer .info .single-footer .info-cont div.ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+footer .info .single-footer .info-cont div.ul .li {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem;
+  color: #fff;
+  font-size: 0.rem;
+}
+
+footer .info .single-footer .info-cont div.ul .li span {
+  margin-bottom: 1px;
+}
