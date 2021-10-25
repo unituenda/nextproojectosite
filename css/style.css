@@ -543,3 +543,61 @@ section.services .cards .card.ative ul li i {
 footer {
   background-color: var(--sec-background);
 }
+
+footer .info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+footer .info .social {
+  display: flex;
+}
+
+footer .info .social i {
+  color: #fff;
+  font-size: 1.5rem;
+
+}
+footer .info .social a {
+  border: 1px solid #fff;
+  padding: 1rem;
+  margin-left: 0.8rem;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+footer .info ul li {
+  margin-bottom: 0.6rem;
+
+}
+
+footer .info ul li a{
+  color: #fff;
+}
+
+footer .info ul li a:hover {
+  border-bottom: 1px solid var(--first-color);
+}
+
+footer .info h4 {
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+  color: #fff;
+}
+
+footer .copy-right {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+footer .copy-right span {
+  color: var(--first-color);
+}
