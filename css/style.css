@@ -538,3 +538,8 @@ section.services .cards .card.ative ul li i {
   color: var(--first-color);
 }
 
+/* FOOTER START */
+
+footer {
+  background-color: var(--sec-background);
+}
