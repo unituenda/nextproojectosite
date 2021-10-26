@@ -1,7 +1,7 @@
 const header = document.querySelector('#header');
 const navHeight = header.offsetHeight;
 const menu = document.querySelector('#menu');
-
+const infomenu = document.querySelector('#infomenu');
 
 function changeHeaderWhenScroll() {
   if (window.scrollY >= navHeight) {
@@ -13,6 +13,7 @@ function changeHeaderWhenScroll() {
 
 menu.addEventListener('click', () => {
   menu.classList.add('ative');
+  infomenu.classList.add('ative');
 });
 
 window.addEventListener('scroll', () => {
