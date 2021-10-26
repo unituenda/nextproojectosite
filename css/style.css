@@ -773,7 +773,11 @@ footer .info .single-footer .info-cont div.ul .li span {
     background-size: 60% 100%;
     background-repeat: no-repeat;
     z-index: 0;
-    width: 727px;
+    width: 100vw;
+  }
+  html {
+    overflow-x: hidden;
+    font-size: 76.5%;
   }
 }
 
