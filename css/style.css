@@ -714,8 +714,36 @@ footer .info .single-footer .info-cont div.ul .li span {
     font-size: 1.8rem;
     transform: rotate(-45deg);
   }
-  #header nav i:hover {
-    transform: -138deg;
+  #header nav i.ative {
+    transform: rotate(-138deg);
+    position: absolute;
+    left: 1rem;
+    animation: ove 1.2s linear;
+  }
+  @keyframes ove{
+    0%{
+      opacity: 0;
+      position: relative;
+      transform: rotate(-45deg);
+      left: 23rem;
+    }
+  
+    30% {
+      transform: rotate(-138deg);
+      position: absolute;
+      left: 23rem;
+    }
+
+    60% {
+      position: absolute;
+      left: 14rem;
+    }
+    100%{
+      opacity: 1;
+      position: absolute;
+      left: 1rem;
+      
+    }
   }
 }
 
