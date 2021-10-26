@@ -306,6 +306,9 @@ button {
   justify-content: center;
   align-items: center;
   background-color: #e7e7e7;
+  margin: 0 auto;
+  border: 1px solid rgb(122, 98, 98);
+  text-align: center;
 }
 
 #tech img {
@@ -644,6 +647,11 @@ footer .info .single-footer .info-cont div.ul .li span {
   .logo {
     color: rgba(22, 252, 22, 0.85);
   }
+
+  button.slick-prev,
+  button.slick-next {
+   display: none !important;
+  }
 }
 
 /*Phones to small Table */
@@ -653,6 +661,7 @@ footer .info .single-footer .info-cont div.ul .li span {
   }
   html {
     overflow-x: hidden;
+    font-size: 76.5%;
   }
   section.services .cards {
     display: flex;
@@ -669,6 +678,26 @@ footer .info .single-footer .info-cont div.ul .li span {
     display: flex;
     flex-direction: column;
   }
+  #about .about-info {
+    display: flex;
+    margin-top: 2.5rem;
+    margin-bottom: 8rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+
+  #about h2 {
+    font-family: Roboto;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  #about .about-info .info {
+    margin-bottom: 2rem;
+    width: 80%;
+    margin-left: 0;
+  }
 
 }
 
@@ -677,10 +706,25 @@ footer .info .single-footer .info-cont div.ul .li span {
   .logo {
     color: rgba(255, 255, 255, 0.85);
   }
+  html {
+    overflow-x: hidden;
+  }
   footer .info {
     display: flex;
     justify-content: space-between;
     padding-top: 2rem;
     flex-wrap: wrap;
+  }
+  #home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../img/undraw_Outer_space_re_u9vd.svg');
+    background-position: bottom -210px right 308px;
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+    z-index: 0;
+    width: 727px;
   }
 }
