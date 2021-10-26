@@ -659,6 +659,7 @@ footer .info .single-footer .info-cont div.ul .li span {
   .logo {
     color: rgba(252, 22, 214, 0.85);
   }
+
   html {
     overflow-x: hidden;
     font-size: 76.5%;
@@ -699,6 +700,13 @@ footer .info .single-footer .info-cont div.ul .li span {
     margin-left: 0;
   }
 
+
+  #header nav button {
+    display: none;
+  }
+  #header nav ul {
+    display: none;
+  }
 }
 
 /* Phones */
@@ -727,4 +735,11 @@ footer .info .single-footer .info-cont div.ul .li span {
     z-index: 0;
     width: 727px;
   }
+}
+
+
+/*Slick change */
+
+section.witness .witness-info .info:first-child {
+  margin-left: 0;
 }
