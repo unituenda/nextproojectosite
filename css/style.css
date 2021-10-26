@@ -41,7 +41,9 @@ img {
 /* RESET END*/
 
 /* LAYOUT START */
-
+html {
+  scroll-behavior: smooth;
+}
 .container {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
