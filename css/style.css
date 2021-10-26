@@ -249,6 +249,7 @@ button {
   margin-top: 2.5rem;
   margin-bottom: 8rem;
   justify-content: center;
+  
 }
 
 #about .about-info .info {
@@ -629,4 +630,57 @@ footer .info .single-footer .info-cont div.ul .li {
 
 footer .info .single-footer .info-cont div.ul .li span {
   margin-bottom: 1px;
+}
+
+/* PC */
+@media only screen and (max-width: 1200px) {
+  .logo {
+    color: rgba(22, 244, 252, 0.85);
+  }
+}
+
+/*Tablete */
+@media only screen and (max-width: 1023px) {
+  .logo {
+    color: rgba(22, 252, 22, 0.85);
+  }
+}
+
+/*Phones to small Table */
+@media only screen and (max-width: 767px) {
+  .logo {
+    color: rgba(252, 22, 214, 0.85);
+  }
+  html {
+    overflow-x: hidden;
+  }
+  section.services .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  section.services .cards .card {
+    width: 30.375rem;
+    height: 35.875rem;
+    border: 1px solid;
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+/* Phones */
+@media only screen and (max-width: 480px) {
+  .logo {
+    color: rgba(255, 255, 255, 0.85);
+  }
+  footer .info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+  }
 }
