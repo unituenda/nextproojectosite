@@ -709,7 +709,17 @@ footer .info .single-footer .info-cont div.ul .li span {
   #header nav ul {
     display: none;
   }
+  #header nav i {
+    color: var(--first-color);
+    font-size: 1.8rem;
+    transform: rotate(-45deg);
+  }
+  #header nav i:hover {
+    transform: -138deg;
+  }
 }
+
+
 
 /* Phones */
 @media only screen and (max-width: 480px) {
