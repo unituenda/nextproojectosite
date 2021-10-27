@@ -721,6 +721,7 @@ footer .info .single-footer .info-cont div.ul .li span {
     font-size: 1.8rem;
     transform: rotate(-45deg);
     display: block;
+    transition: 0.5s;
   }
   #header nav i.ative {
     transform: rotate(-138deg);
@@ -765,6 +766,7 @@ footer .info .single-footer .info-cont div.ul .li span {
     transform: translateX(1000px);
     z-index: 10000000;
     background-color: var(--first-color);
+    transition: 0.5s;
     
   }
   #header nav ul li {
